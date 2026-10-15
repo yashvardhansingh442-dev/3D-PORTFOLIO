@@ -2,7 +2,7 @@
 
 A cinematic 3D product shot of an energy drink can resting on a bed of crystal-clear ice cubes, split-lit with a hot **red** key on the left and a cold **cyan-blue** key on the right. Condensation droplets cover the can, and the whole scene is rendered in 4K with Cycles.
 
-![Final render](RENDER.png)
+![Final render](https://github.com/yashvardhansingh442-dev/3D-PORTFOLIO/blob/28b283f669f0304edd0ccacba2f2cbc1112e3d91/RENDER.png)
 
 > **Resolution:** 3840 × 2160 (4K UHD) · **Renderer:** Cycles · **Blender:** 5.2
 
