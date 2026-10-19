@@ -9,9 +9,9 @@ Python scripts that run inside Blender (`bpy`).
 ## Scripts
 | Script | What it does |
 |---|---|
-| _none yet_ | |
+| [`droplet_generator.py`](droplet_generator.py) | Scatters non-overlapping water droplets over the selected mesh. Used in [droplet-generator](../../projects/droplet-generator/) |
 
 ## Conventions
 - One script per task, named by action: `batch_render.py`, `apply_palette.py`
 - A docstring at the top explaining what it does and any settings to change
-- Tested on Blender version:
+- Tested on Blender version: 4.x / 5.x
