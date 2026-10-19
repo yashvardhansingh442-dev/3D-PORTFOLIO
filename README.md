@@ -314,6 +314,38 @@ Add batch render script
 - [ ] Add a motion-graphics / product-ad reel
 
 ---
+## 🎞️ Featured Projects
+
+| Project | Preview | Tools | Description |
+|---|---|---|---|
+| [Project Name](projects/project-name/) | ![](projects/project-name/renders/thumbnail.png) | Blender, Resolve | One-line description |
+| [Project Name](projects/project-name/) | ![](projects/project-name/renders/thumbnail.png) | Blender | One-line description |
+
+## 🗂️ Repository Structure
+
+| Folder | Purpose |
+|---|---|
+| [`projects/`](projects/) | One folder per project: source, renders, exports, references |
+| [`assets/`](assets/) | Reusable models and props |
+| [`materials/`](materials/) | Reusable materials, shaders, node groups |
+| [`scripts/`](scripts/) | Automation for Blender, Resolve, and utilities |
+| [`presets/`](presets/) | Render, export, and color presets |
+| [`docs/`](docs/) | Workflow notes and guides |
+
+## 🔧 Workflow
+
+See [`docs/workflow.md`](docs/workflow.md) for how I take a piece from reference to final render.
+---
+
+## 📬 Find Me
+
+- Behance: https://www.behance.net/avusingh
+- Fiverr: add your gig link
+- GitHub: [@yashvardhansingh442-dev](https://github.com/yashvardhansingh442-dev)
+
+## 📄 License
+
+MIT for code and scripts. Renders and artwork are all rights reserved. See [LICENSE](LICENSE).
 
 ## 📄 License
 
