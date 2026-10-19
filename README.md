@@ -11,7 +11,7 @@
 ![License](https://img.shields.io/badge/License-MIT%20%2B%20All%20Rights%20Reserved-green)
 
 <!-- Replace with your best render (recommended width: 1600px, compressed JPG) -->
-![Hero render](https://github.com/yashvardhansingh442-dev/3D-PORTFOLIO/blob/50f2d328f75f4b12ef696deb676fd513d25abaa1/RENDER.png)
+![Hero render](https://github.com/yashvardhansingh442-dev/3D-PORTFOLIO/blob/d6f0156b265755fe4baa0788c2aa94d61e8263ee/docs/RENDER.png)
 
 </div>
 
