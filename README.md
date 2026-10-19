@@ -361,7 +361,7 @@ Artwork, renders, models, and project files are © Yash, all rights reserved, un
 - **ArtStation:** _add link_
 - **Portfolio:** https://www.behance.net/avusingh
 - **LinkedIn:** _add link_
-- **Email:** _add address_
+- **Email:** yashvardhansingh442@gmail.com
 
 Feedback and collaboration ideas are welcome. Open an issue or reach out.
 
