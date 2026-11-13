@@ -1,6 +1,6 @@
 # Project Name
 
-![Thumbnail](renders/thumbnail.png)
+![Thumbnail](renders/thumbnail.jpg)
 
 > One-line description of what this piece is.
 

@@ -2,7 +2,9 @@
 
 A procedural tool that scatters realistic water droplets over any mesh surface: condensation on a cold can, rain on glass, sweat on a bottle. Built as a Python script so it works on any object, with the same look every time.
 
+<!-- Add renders/thumbnail.jpg after the first demo render, then uncomment:
 ![Thumbnail](renders/thumbnail.jpg)
+-->
 
 ## Goal
 Replace hand-placed droplets with a repeatable generator. The condensation in [redbull-drink](../redbull-drink/) used Geometry Nodes; this project is a script version that works on any object and gives full control over size, spacing, and density.
@@ -32,7 +34,7 @@ Replace hand-placed droplets with a repeatable generator. The condensation in [r
 | `seed` | Change for a different pattern |
 
 ## How to use
-1. Open `source/droplet-demo.blend` (or any scene) and select a mesh.
+1. Open any scene (a demo `.blend` will live in `source/`) and select a mesh.
 2. In the **Scripting** workspace open `scripts/blender/droplet_generator.py`.
 3. Adjust `SETTINGS`, then **Run Script**.
 4. Render with **Cycles**.
@@ -50,6 +52,8 @@ Replace hand-placed droplets with a repeatable generator. The condensation in [r
 ```
 droplet-generator/
 ├── README.md
-├── source/          # demo .blend
-└── renders/         # final renders, thumbnail.jpg
+├── source/          # demo .blend (to add)
+└── renders/         # final renders, thumbnail.jpg (to add)
 ```
+
+The tool itself lives in [`scripts/blender/droplet_generator.py`](../../scripts/blender/droplet_generator.py).

@@ -2,9 +2,9 @@
 
 A cinematic 3D product shot of an energy drink can resting on a bed of crystal-clear ice cubes, split-lit with a hot **red** key on the left and a cold **cyan-blue** key on the right. Condensation droplets cover the can, and the whole scene is rendered in 4K with Cycles.
 
-![Final render](https://github.com/yashvardhansingh442-dev/3D-PORTFOLIO/blob/28b283f669f0304edd0ccacba2f2cbc1112e3d91/RENDER.png)
+![Final render](../../docs/images/hero.jpg)
 
-> **Resolution:** 3840 × 2160 (4K UHD) · **Renderer:** Cycles · **Blender:** 5.2
+> **Resolution:** 3840 × 2160 (4K UHD) · **Renderer:** Cycles · **Blender:** 5.2 · Full-resolution render: [`renders/final-4k.png`](renders/final-4k.png)
 
 ---
 
@@ -37,21 +37,26 @@ This project is a product-ad style study built to practice the things that make 
 - **Shading:** Principled BSDF–based materials for metal, glass/ice, and water droplets
 - **Procedural work:** Geometry Nodes for the droplet distribution
 - **Render samples / denoiser / render time:** _add your numbers here_
-- **Hardware:** Nvidia rtx 4050_
+- **Hardware:** NVIDIA RTX 4050
 
 ## Files
 
 ```
-.
-├── RED.blend      # Full Blender scene (project file)
-├── RENDER.png     # Final 4K render
-└── README.md
+redbull-drink/
+├── README.md
+├── source/
+│   └── redbull-drink.blend    # Full Blender scene (Git LFS)
+└── renders/
+    ├── thumbnail.jpg          # 800 px preview used in the main README
+    └── final-4k.png           # Final 3840 × 2160 render (Git LFS)
 ```
+
+> The README hero image is a compressed 1600 px copy at [`docs/images/hero.jpg`](../../docs/images/hero.jpg).
 
 ## How to Open
 
 1. Install [Blender](https://www.blender.org/download/) **5.2 or newer** (older versions may not open this file correctly).
-2. Open `RED.blend`.
+2. Open `source/redbull-drink.blend` (run `git lfs pull` first if the file is only a few bytes).
 3. Make sure the render engine is set to **Cycles**. GPU compute is strongly recommended for the ice.
 4. Press **F12** to render, or switch the viewport to **Rendered** to preview.
 
@@ -75,4 +80,4 @@ This is a personal, non-commercial portfolio and learning project. The can desig
 
 ## License
 
-The scene file and render are shared for learning and portfolio purposes. Add a licence of your choice (e.g. CC BY-NC 4.0) if you want to formalise reuse terms.
+Scene file and render: all rights reserved, see [LICENSE-ARTWORK.md](../../LICENSE-ARTWORK.md). Shared for portfolio and learning purposes only.

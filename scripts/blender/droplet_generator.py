@@ -12,7 +12,10 @@ How to run
     2. Scripting workspace -> open this file -> edit SETTINGS -> Run Script.
     3. Render with Cycles (droplets are refractive).
 
-Tested target: Blender 4.x / 5.x. If something errors, send me the message.
+Tested target: Blender 4.x / 5.x.
+
+Author:  Yash
+License: MIT
 """
 import math
 import random
@@ -82,7 +85,7 @@ def random_point(tris, weights, rng):
 def place_droplets(tris, s):
     rng = random.Random(s["seed"])
     weights = [t[6] for t in tris]
-    placed = []  # (position, radius)
+    placed = []  # (position, radius, normal)
     for _ in range(s["count"]):
         for _try in range(s["max_attempts_per_drop"]):
             r = s["min_radius"] + (s["max_radius"] - s["min_radius"]) * (
