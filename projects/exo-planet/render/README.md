@@ -2,7 +2,7 @@
 
 A cinematic, fully procedural rust-and-salt exoplanet floating in a star field, lit by a single hard sun with a faint cold blue fill. The planet surface, cloud shell, and star field are all generated with shader nodes (no image textures on the planet), and the final frame is rendered in portrait 4K-class resolution with Cycles.
 
-![Final render](renders/exoplanet.png)
+![Final render](https://github.com/yashvardhansingh442-dev/3D-PORTFOLIO/blob/ef82061c3fceafa5f804d18aeb6ac6f9795b5603/projects/exo-planet/render/exoplanet.png)
 
 > **Resolution:** 2160 × 3840 (9:16 portrait) · **Renderer:** Cycles (GPU) · **Blender:** 5.2 · Full-resolution render: [`renders/exoplanet.png`](renders/exoplanet.png)
 
